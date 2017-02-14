@@ -13,12 +13,16 @@ use DB;
 class articleController extends Controller
 {
     public function articles(){
-    	
+
     	$articles = DB::table('articles')->select('id','title','author','created_at')->get();
     	return response()->json($articles);
     }
 
-    public function article($article_id){
+    public function article($article_id=null){
+
+    	if($article_id==null){
+    		return response()->json(['error'=>'Please add article id after the url.'],406);
+    	}
 
     	$article = Article::find($article_id);
     	if($article==null){
