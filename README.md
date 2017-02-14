@@ -5,8 +5,8 @@ PHP architecture: Laravel 5.4
 Language: PHP 5.6
 Databse: Mysql 5.7
 
-# API description[{} means value]:
-1.Return article list.
+# API description:
+## 1.Return article list.
 GET http://127.0.0.1:8000/api/v1/articles
 
 2.Return article by article id
