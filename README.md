@@ -40,7 +40,7 @@ body
 
   {
     "article_id":"2",
-    "comment_content":""
+    "comment_content":"comment"
   }
 
 ## 6.Search related articles and comments 
