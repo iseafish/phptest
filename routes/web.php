@@ -18,7 +18,7 @@ Route::get('/', function () {
 //1.Return articles list.
 Route::get('api/v1/articles','articleController@articles');
 //2.Return article by article id
-Route::get('api/v1/article/{article_id}','articleController@article');
+Route::get('api/v1/article/{article_id?}','articleController@article');
 //3.Return comments by article id
 Route::get('api/v1/article/{article_id}/comments','commentController@comments');
 //4.Create a new article
