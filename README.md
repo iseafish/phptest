@@ -1,9 +1,9 @@
 # phptest
 Simple restful application for interview test.
 # Basic info:
-PHP architecture: Laravel 5.4
-Language: PHP 5.6
-Databse: Mysql 5.7
+### PHP architecture: Laravel 5.4
+### Language: PHP 5.6
+### Databse: Mysql 5.7
 
 # API description:
 ## 1.Return article list.
