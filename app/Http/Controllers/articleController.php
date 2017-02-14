@@ -26,7 +26,7 @@ class articleController extends Controller
 
     	$article = Article::find($article_id);
     	if($article==null){
-    		return response()->json(['error'=>'article is not exist.'],404);
+    		return response()->json(['error'=>'Article is not exist.'],404);
     	}
     	return $article;
     }
