@@ -6,7 +6,7 @@ Simple restful application for interview test.
 ### Databse: Mysql 5.7
 
 # API description:
-## 1.Return article list.
+## 1.Return articles list
 GET http://127.0.0.1:8000/api/v1/articles
 
 ## 2.Return article by article id
@@ -34,5 +34,5 @@ body
     "comment_content":""
   }
 
-## 6.Search related article articles and comments 
+## 6.Search related articles and comments 
 GET http://127.0.0.1:8000/api/v1/search/{key_word}
