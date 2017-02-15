@@ -46,3 +46,12 @@ body
 ## 6.Search related articles and comments 
 GET http://127.0.0.1:8000/api/v1/search/{key_word}  
 
+# intall guide  
+1.git clone https://github.com/iseafish/phptest.git  
+2.cd phptest  
+3.composer install  
+4.modify the .env file for your mysql connection  
+5.php artisan migrate  
+6.php artisan serve  
+Then enjoy it!
+
