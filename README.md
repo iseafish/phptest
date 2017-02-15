@@ -46,7 +46,7 @@ body
 ## 6.Search related articles and comments 
 GET http://127.0.0.1:8000/api/v1/search/{key_word}  
 
-# intall guide  
+# install guide  
 1.git clone https://github.com/iseafish/phptest.git  
 2.cd phptest  
 3.composer install  
